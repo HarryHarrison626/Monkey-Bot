@@ -1,0 +1,23 @@
+{
+  "name": "Monkey-Bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarryHarrison626/Monkey-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarryHarrison626/Monkey-Bot/issues"
+  },
+  "homepage": "https://github.com/HarryHarrison626/Monkey-Bot#readme",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  }
+}
