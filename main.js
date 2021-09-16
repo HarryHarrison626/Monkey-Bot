@@ -13,8 +13,10 @@ client.on('message', message =>{
     if(message.author.bot)
     return;
 
-    if(message.context.toLowerCase() === '@Music guy#6413')
-    message.channel.send("I will beat you to death.");
+    if (message.mentions.users.has(client.user.id) && !message.author.bot) {
+        message.reply(`I will beat you to death.`)
+        return
+      };
 });
 
 
