@@ -6,6 +6,10 @@
   "scripts": {
     "start" : "node main.js"
   },
+  "engines": {
+    "node": "16.9.1",
+    "npm": "7.5.2"
+ },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HarryHarrison626/Monkey-Bot.git"
