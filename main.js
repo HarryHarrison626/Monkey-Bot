@@ -14,10 +14,9 @@ client.on('message', message =>{
     return;
 
     if (message.mentions.users.has(client.user.id) && !message.author.bot) {
-        message.reply(`I will beat you to death.`)
+        message.reply(`I won't beat you to death. :)`)
         return
       };
 });
-
 
 client.login('ODg3MTA3ODE2NDg0MTQzMTk0.YT_ViQ.j4TQ2AEysvhHdmj500_X3oKgoGE');
